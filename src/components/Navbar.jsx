@@ -1,3 +1,5 @@
+import '../style_components/navbar.css';
+
 const Navbar = () => {
   return (
     <nav className="navbar">
