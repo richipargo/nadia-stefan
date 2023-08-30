@@ -11,9 +11,9 @@ function App() {
     <>
       <div>
         <Navbar />
-        <div>
+        {/* <div>
           <Home />
-        </div>
+        </div> */}
       </div>
     </>
   );

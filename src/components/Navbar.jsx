@@ -3,14 +3,23 @@ import '../style_components/navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {/* <h1>The wedding site</h1> */}
-      <div className="links">
-        <a href="/">N&S</a>
-        <a href="/boda">Boda</a>
-        <a href="/hospedaje">Hospedaje</a>
-        <a href="/mesaregalos">Mesa regalos</a>
-        <a href="/rsvp">RSVP</a>
-      </div>
+      <a class="logo-container" href="/">
+        <img class="logo" src="../ns-logo.png" alt="N&S logo" />
+      </a>
+      <ul class="nav-list" id="nav-list">
+        <li>
+          <a href="/boda">Boda</a>
+        </li>
+        <li>
+          <a href="/hospedaje">Hospedaje</a>
+        </li>
+        <li>
+          <a href="mesa-regalos">Mesa regalos</a>
+        </li>
+        <li>
+          <a href="#rsvp">Rsvp</a>
+        </li>
+      </ul>
     </nav>
   );
 };

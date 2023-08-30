@@ -1,5 +1,15 @@
+:root {
+  --dark: #373744;
+  --main: #66754c;
+  --extra: #b1aabd;
+  --highlight: #9d6d31;
+  --light: #fffdfe;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body {
+  background-color: var(--light);
 }

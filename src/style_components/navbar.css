@@ -1,3 +1,35 @@
 .navbar {
-  background-color: green;
+  border: 1px solid red;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 70px;
+  padding: 10px 0;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.nav-list li {
+  text-transform: uppercase;
+  font-size: 14px;
+  /* font-weight: 500; */
+}
+.nav-list a {
+  text-decoration: none;
+  color: var(--dark);
+}
+.nav-list a:hover {
+  /* font-weight: 600; */
 }
