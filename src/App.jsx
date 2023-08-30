@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Header from './components/Header';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Home from './components/home';
 import './index.css';
@@ -11,9 +11,10 @@ function App() {
     <>
       <div>
         <Navbar />
-        {/* <div>
+        <Hero />
+        <div>
           <Home />
-        </div> */}
+        </div>
       </div>
     </>
   );

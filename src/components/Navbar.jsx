@@ -3,10 +3,10 @@ import '../style_components/navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a class="logo-container" href="/">
-        <img class="logo" src="../ns-logo.png" alt="N&S logo" />
+      <a className="logo-container" href="/">
+        <img className="logo" src="../ns-logo.png" alt="N&S logo" />
       </a>
-      <ul class="nav-list" id="nav-list">
+      <ul className="nav-list" id="nav-list">
         <li>
           <a href="/boda">Boda</a>
         </li>
@@ -20,6 +20,13 @@ const Navbar = () => {
           <a href="#rsvp">Rsvp</a>
         </li>
       </ul>
+
+      {/*Hamburger menu*/}
+      <div className="menu-btn" id="menu-btn">
+        <div className="menu-line"></div>
+        <div className="menu-line"></div>
+        <div className="menu-line"></div>
+      </div>
     </nav>
   );
 };
