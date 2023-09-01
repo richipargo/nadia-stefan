@@ -16,8 +16,10 @@
   text-transform: uppercase;
 }
 .centered-text h1 {
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 60px;
 }
 .centered-text h2 {
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 22px;
 }
