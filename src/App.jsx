@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Home from './components/Home';
+import Home1 from './components/Home1';
 import Footer from './components/Footer';
 import './index.css';
 
