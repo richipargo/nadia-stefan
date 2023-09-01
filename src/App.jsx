@@ -1,8 +1,11 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Boda from './components/Boda';
+import Hospedaje from './components/Hospedaje';
 import Home1 from './components/Home1';
 import Mesa from './components/Mesa';
+import Rsvp from './components/Rsvp';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import './index.css';
@@ -19,8 +22,17 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route exact path="/boda">
+              <Boda />
+            </Route>
+            <Route exact path="/hospedaje">
+              <Hospedaje />
+            </Route>
             <Route exact path="/mesa-regalos">
               <Mesa />
+            </Route>
+            <Route exact path="/rsvp">
+              <Rsvp />
             </Route>
           </Switch>
         </div>
