@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const RsvpBtn = () => {
   return (
     <Link to="/rsvp">
-      <button>RSVP</button>
+      <button className="rsvp-btn">RSVP</button>
     </Link>
   );
 };

@@ -1,0 +1,9 @@
+.rsvp-btn {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: var(--extra);
+  opacity: 0.9;
+  margin-top: 3%;
+}
