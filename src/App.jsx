@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Home from './components/home';
+import Home from './components/Home';
 import './index.css';
 
 function App() {
@@ -12,8 +12,9 @@ function App() {
       <div>
         <Navbar />
         <Hero />
+        <Home />
         {/* <div>
-          <Home />
+          <Home1 />
         </div> */}
       </div>
     </>
