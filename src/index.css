@@ -10,9 +10,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: var(--dark-green);
-  font-family: 'Cormorant Garamond', serif;
 }
 body {
   background-color: var(--light);
+  color: var(--dark-green);
+  font-family: 'Cormorant Garamond', serif;
 }
