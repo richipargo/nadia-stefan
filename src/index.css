@@ -1,7 +1,8 @@
 :root {
   --dark: #373744;
-  --main: #66754c;
-  --extra: #b1aabd;
+  --dark-green: #2f332c;
+  --main: #5d6759;
+  --extra: #b3bcaf;
   --highlight: #9d6d31;
   --light: #fffdfe;
 }
@@ -9,6 +10,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: var(--dark-green);
+  font-family: 'Cormorant Garamond', serif;
 }
 body {
   background-color: var(--light);
