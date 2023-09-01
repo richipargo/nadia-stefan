@@ -1,9 +1,13 @@
+.countdown-container {
+  /* border: 1px solid red; */
+  margin-top: 3%;
+}
 .countdown {
   display: inline-block;
   color: var(--extra);
   font-weight: 600;
   padding: 20px 0;
 }
-.countdown-span {
+/* .countdown-span {
   padding: 20px 0;
-}
+} */
