@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 import Home from './components/Home';
+import Footer from './components/Footer';
 import './index.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         {/* <div>
           <Home1 />
         </div> */}
+        <Footer />
       </div>
     </>
   );
