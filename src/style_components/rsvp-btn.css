@@ -5,5 +5,9 @@
   border: none;
   background-color: var(--extra);
   opacity: 0.9;
-  margin-top: 3%;
+  margin-top: 5%;
+}
+.rsvp-btn:hover {
+  cursor: pointer;
+  background-color: var(--main);
 }
