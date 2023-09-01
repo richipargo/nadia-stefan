@@ -20,7 +20,8 @@ const Countdown = () => {
 
   return (
     <div className="countdown-container">
-      <p>{days} días para festejar juntos!</p>
+      <p className="countdown">{days}</p>
+      <span className="countdown-span"> días para festejar juntos!</span>
     </div>
   );
 };

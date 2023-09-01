@@ -1,3 +1,16 @@
 .countdown-container {
-  border: 1px solid red;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.countdown {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  color: var(--extra);
+  font-weight: 600;
+}
+.countdown-span {
+  text-transform: uppercase;
 }
