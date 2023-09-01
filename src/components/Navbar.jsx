@@ -1,23 +1,24 @@
 import '../style_components/navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a className="logo-container" href="/">
+      <Link className="logo-container" to="/">
         <img className="logo" src="../ns-logo.png" alt="N&S logo" />
-      </a>
+      </Link>
       <ul className="nav-list" id="nav-list">
         <li>
-          <a href="/boda">Boda</a>
+          <Link to="/boda">Boda</Link>
         </li>
         <li>
-          <a href="/hospedaje">Hospedaje</a>
+          <Link to="/hospedaje">Hospedaje</Link>
         </li>
         <li>
-          <a href="mesa-regalos">Mesa regalos</a>
+          <Link to="/message">Mensaje</Link>
         </li>
         <li>
-          <a href="#rsvp">Rsvp</a>
+          <Link to="/rsvp">Rsvp</Link>
         </li>
       </ul>
 

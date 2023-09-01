@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
-
 import Home from './components/Home';
 import Home1 from './components/Home1';
+import Message from './components/Message';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import './index.css';
@@ -16,8 +16,11 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route path="/">
+            <Route exact path="/">
               <Home />
+            </Route>
+            <Route exact path="/message">
+              <Message />
             </Route>
           </Switch>
         </div>
