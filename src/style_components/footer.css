@@ -3,7 +3,6 @@
   margin: 0 auto;
   text-align: center;
 }
-
 .initials {
   width: 120px;
   margin: 0 auto;
@@ -19,4 +18,8 @@
 }
 footer {
   margin: 80px 0 10px 0;
+}
+.link-initials {
+  text-decoration: none;
+  color: var(--dark);
 }
