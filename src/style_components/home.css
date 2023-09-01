@@ -1,9 +1,14 @@
 .home {
   width: 90%;
   margin: 0 auto;
+  padding: 5% 0;
   text-transform: uppercase;
   text-align: center;
+  font-size: 22px;
 }
 .pm-span {
   text-transform: lowercase;
+}
+.when-where {
+  padding: 20px 0;
 }

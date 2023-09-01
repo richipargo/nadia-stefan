@@ -2,4 +2,8 @@
   display: inline-block;
   color: var(--extra);
   font-weight: 600;
+  padding: 20px 0;
+}
+.countdown-span {
+  padding: 20px 0;
 }
