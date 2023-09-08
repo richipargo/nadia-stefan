@@ -11,7 +11,7 @@ const Home = () => {
       {/* <CountdownTimer countdownTimestampMs={1643673600000} /> */}
       <Countdown />
       <p className="when-where">
-        27 Enero, 2024. 2:00<span className="pm-span"> pm</span> | Jardín Xolatlaco
+        27 Enero, 2024. 14:00<span className="pm-span"> hrs</span> | Jardín Xolatlaco
       </p>
       <RsvpBtn />
     </div>

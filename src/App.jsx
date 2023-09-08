@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Boda from './components/Boda';
-import Hospedaje from './components/Hospedaje';
+import Estadia from './components/Estadia';
 import Mesa from './components/Mesa';
 import Rsvp from './components/Rsvp';
 import Footer from './components/Footer';
@@ -24,8 +24,8 @@ function App() {
             <Route exact path="/boda">
               <Boda />
             </Route>
-            <Route exact path="/hospedaje">
-              <Hospedaje />
+            <Route exact path="/estadia">
+              <Estadia />
             </Route>
             <Route exact path="/mesa-regalos">
               <Mesa />
