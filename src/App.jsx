@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Boda from './components/Boda';
 import Hospedaje from './components/Hospedaje';
-import Home1 from './components/Home1';
 import Mesa from './components/Mesa';
 import Rsvp from './components/Rsvp';
 import Footer from './components/Footer';
@@ -36,10 +35,6 @@ function App() {
             </Route>
           </Switch>
         </div>
-        {/* <Hero /> */}
-        {/* <div>
-          <Home1 />
-        </div> */}
         <Footer />
       </div>
     </Router>
