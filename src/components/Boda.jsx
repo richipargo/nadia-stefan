@@ -23,7 +23,7 @@ const Boda = () => {
         <p>¡Te esperamos con toda la emoción y alegría del mundo!</p>
         <p>Por favor confirma tu asistencia dando click en el botón de RSVP.</p>
       </div>
-      {/* <img className="hero-img" src="./ns-199.jpg" alt="Nadia & Stefan's engagement in Oaxaca" /> */}
+      <img className="hero-img" src="./ns-243.jpg" alt="Nadia y Stefan en Oaxaca" />
     </div>
   );
 };
