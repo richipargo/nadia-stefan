@@ -1,7 +1,7 @@
 .navbar {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,19 +9,20 @@
   position: sticky;
   top: 0;
   z-index: 9999;
+  background-color: var(--light);
 }
 .logo {
   width: 70px;
   padding: 0;
+  display: block;
 }
 .nav-list {
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 1rem;
+  padding-right: 1%;
 }
 .nav-list li {
   text-transform: uppercase;
@@ -32,5 +33,5 @@
   color: var(--dark);
 }
 .nav-list a:hover {
-  font-weight: 600;
+  font-weight: 800;
 }
