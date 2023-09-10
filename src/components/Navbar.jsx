@@ -1,5 +1,6 @@
 import '../style_components/navbar.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Navbar = () => {
   return (
@@ -21,13 +22,6 @@ const Navbar = () => {
           <Link to="/rsvp">Rsvp</Link>
         </li>
       </ul>
-
-      {/*Hamburger menu*/}
-      <div className="menu-btn" id="menu-btn">
-        <div className="menu-line"></div>
-        <div className="menu-line"></div>
-        <div className="menu-line"></div>
-      </div>
     </nav>
   );
 };

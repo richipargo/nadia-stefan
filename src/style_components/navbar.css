@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 .logo {
   width: 70px;
@@ -23,56 +26,11 @@
 .nav-list li {
   text-transform: uppercase;
   font-size: 14px;
-  /* font-weight: 500; */
 }
 .nav-list a {
   text-decoration: none;
   color: var(--dark);
 }
 .nav-list a:hover {
-  /* font-weight: 600; */
-}
-
-/*Responsive menu icon*/
-.menu-btn {
-  display: none;
-  padding-top: 10px;
-}
-.menu-line {
-  width: 28px;
-  height: 3px;
-  background-color: var(--dark);
-  margin-bottom: 6px;
-}
-/*Show hamburger menu when width is 900px or less*/
-@media all and (max-width: 900px) {
-  .navbar {
-    flex-direction: column;
-    position: relative;
-  }
-  .menu-btn {
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    cursor: pointer;
-  }
-  .nav-list {
-    padding: 0;
-    width: 100%;
-    display: none;
-  }
-  .nav-list li {
-    width: 100%;
-    text-align: center;
-    display: block;
-    border-top: 1px solid var(--dark);
-    padding: 10px 0;
-  }
-  .logo-container {
-    width: 100%;
-  }
-  .active {
-    display: block;
-  }
+  font-weight: 600;
 }
