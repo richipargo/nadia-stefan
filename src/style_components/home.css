@@ -10,7 +10,7 @@
   margin-top: 5%;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--main);
+  color: var(--dark);
 }
 .pm-span {
   text-transform: lowercase;

@@ -1,3 +1,7 @@
+.countdown-text {
+  color: var(--dark-green);
+}
+
 .countdownTimer {
   padding: 4% 0;
 }
@@ -10,13 +14,16 @@
   gap: 10px;
   margin: 0 auto;
   text-transform: uppercase;
-  /* border: 1px solid var(--dark-green); */
 }
-
 .countdownTimer .box {
   padding: 0 10px;
+  margin-top: 10px;
 }
 .label {
-  color: var(--extra);
+  color: var(--main);
   text-transform: lowercase;
+}
+.value {
+  font-weight: 500;
+  color: var(--dark-green);
 }

@@ -25,7 +25,7 @@ const CountdownTimer = () => {
   }, []);
   return (
     <div className="countdownTimer">
-      <p>¡Estamos contando los días para festejar juntos!</p>
+      <p className="countdown-text">¡Estamos contando los días para festejar juntos!</p>
       <div className="content">
         {Object.entries(timeLeft).map((el) => {
           const label = el[0];
