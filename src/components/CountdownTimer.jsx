@@ -1,6 +1,6 @@
 import '../style_components/countdown-timer.css';
 import { useState, useEffect } from 'react';
-const COUNTDOWN_TARGET = new Date('2024-01-27T13:30:00');
+const COUNTDOWN_TARGET = new Date('2024-01-27T14:00:00');
 
 const getTimeLeft = () => {
   const totalTimeLeft = COUNTDOWN_TARGET - new Date();
@@ -25,7 +25,7 @@ const CountdownTimer = () => {
   }, []);
   return (
     <div className="countdownTimer">
-      <h2>Countdown</h2>
+      <p>¡Estamos contando los días para festejar juntos!</p>
       <div className="content">
         {Object.entries(timeLeft).map((el) => {
           const label = el[0];

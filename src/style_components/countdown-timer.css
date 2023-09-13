@@ -1,13 +1,22 @@
+.countdownTimer {
+  padding: 4% 0;
+}
+
 .countdownTimer .content {
   width: 100%;
-  background-color: var(--main);
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 10px;
   margin: 0 auto;
+  text-transform: uppercase;
+  /* border: 1px solid var(--dark-green); */
 }
 
 .countdownTimer .box {
-  border: 1px solid var(--dark);
+  padding: 0 10px;
+}
+.label {
+  color: var(--extra);
+  text-transform: lowercase;
 }

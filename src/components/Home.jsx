@@ -8,11 +8,10 @@ const Home = () => {
   return (
     <div className="home">
       <Hero />
-      <CountdownTimer />
-      <Countdown />
       <p className="when-where">
         27 Enero, 2024. 14:00<span className="pm-span"> hrs</span> | Jardín Xolatlaco
       </p>
+      <CountdownTimer />
       <RsvpBtn />
     </div>
   );
