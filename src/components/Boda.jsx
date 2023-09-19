@@ -4,12 +4,42 @@ import Map from './Map';
 const Boda = () => {
   return (
     <div className="boda-container">
+      <div>
+        <h1>
+          Estamos muy felices y agradecidos de que nos acompañen a celebrar el día de nuestra boda.
+        </h1>
+      </div>
       <div className="cuando-donde">
         <div className="location-text">
           <h2>Cuándo y Dónde</h2>
           <p>Sábado 27 de enero, 2024</p>
           <p>13.30 hrs.</p>
           <p>Jardín Xolatlaco</p>
+          <p>
+            Carretera Tepoztlán - Amatlán no. 1000 - B Amatlán de Quetzalcóatl, Tepoztlán Morelos CP
+            62525
+          </p>
+          <p>
+            *Buscar en Waze/Google Maps “Jardin Xolatlaco” (NO solamente “Xolatlaco”, ya que te
+            puede llevar a otro lugar).
+          </p>
+          <p>
+            Seguir
+            <a className="address-link" href="https://waze.com/ul/h9g3ecwhep" target="_blank">
+              Waze
+            </a>
+          </p>
+
+          <p>
+            Seguir{' '}
+            <a
+              className="address-link"
+              href="https://maps.app.goo.gl/ENe7YmdFubLPBpYC8"
+              target="_blank"
+            >
+              Google Maps
+            </a>
+          </p>
         </div>
         <div className="location-map">
           <Map />

@@ -12,7 +12,7 @@ const Home = () => {
         27 Enero, 2024. 13:30<span className="pm-span"> hrs</span> | Jardín Xolatlaco
       </p>
       <CountdownTimer />
-      <RsvpBtn />
+      {/* <RsvpBtn /> */}
     </div>
   );
 };

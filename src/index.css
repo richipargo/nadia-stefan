@@ -1,10 +1,9 @@
 :root {
   --dark: #1b1212;
   --dark-green: #3a4438;
-  --main: #728c69;
-  --highlight: #838153;
-  --light: #faf9f6;
-  --light-cream: #edebe0;
+  --main: #4b5e3c;
+  --highlight: #977d5c;
+  --light: #ece8e0;
 }
 * {
   box-sizing: border-box;
@@ -13,6 +12,6 @@
 }
 body {
   background-color: var(--light);
-  color: var(--dark);
+  color: var(--dark-green);
   font-family: 'Cormorant Garamond', serif;
 }

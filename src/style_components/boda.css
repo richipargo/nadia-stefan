@@ -9,11 +9,16 @@ h2 {
 .dresscode,
 .rsvp {
   border: 1px solid blue;
+  margin-top: 20px;
 }
 .cuando-donde {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.address-link {
+  text-decoration: underline;
+  color: var(--highlight);
 }
 .dresscode {
 }

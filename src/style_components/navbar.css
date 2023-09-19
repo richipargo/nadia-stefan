@@ -30,7 +30,7 @@
 }
 .nav-list a {
   text-decoration: none;
-  color: var(--dark);
+  color: var(--main);
 }
 .nav-list a:hover {
   font-weight: 800;

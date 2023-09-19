@@ -20,10 +20,10 @@
   margin-top: 10px;
 }
 .label {
-  color: var(--main);
+  color: var(--highlight);
   text-transform: lowercase;
 }
 .value {
   font-weight: 500;
-  color: var(--dark-green);
+  color: var(--main);
 }
