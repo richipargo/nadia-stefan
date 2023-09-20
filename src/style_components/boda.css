@@ -1,26 +1,52 @@
 .boda-container {
   width: 90%;
   margin: 0 auto;
+  border: 3px solid yellow;
 }
-h2 {
+.boda-title {
+  border: 1px solid red;
+  padding: 1%;
+}
+h1 {
+  font-weight: 400;
+  text-align: center;
   color: var(--main);
 }
-.cuando-donde,
-.dresscode,
-.rsvp {
-  border: 1px solid blue;
-  margin-top: 20px;
+h2,
+h3 {
+  color: var(--main);
 }
-.cuando-donde {
+.cuando-donde-container {
+  background-color: aqua;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.cuando-donde-text {
+  border: 1px solid green;
+  width: 40%;
+}
+.cuando-donde-map {
+  border: 2px solid pink;
+}
+.como-llegar {
+  background-color: darkkhaki;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.como-llegar-text {
+  width: 40%;
 }
 .address-link {
   text-decoration: underline;
   color: var(--highlight);
 }
-.dresscode {
-}
-.rsvp {
+
+/*Three containers info */
+.cuando-donde-container,
+.event-container,
+.dresscode-container {
+  border: 1px solid blue;
+  padding: 1%;
 }
