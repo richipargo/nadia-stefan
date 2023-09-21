@@ -15,6 +15,13 @@
 .pm-span {
   text-transform: lowercase;
 }
+.home-bouquet {
+  width: 350px;
+  display: block;
+  margin: 10px auto;
+  transform: rotate(180deg);
+}
+
 @media all and (min-width: 320px) and (max-width: 600px) {
   .home {
     font-size: 18px;

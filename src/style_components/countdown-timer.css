@@ -3,16 +3,16 @@
 }
 
 .countdownTimer {
-  padding: 4% 0;
+  padding: 4% 0 0 0;
 }
 
 .countdownTimer .content {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 10px;
   margin: 0 auto;
+  text-align: center;
   text-transform: uppercase;
 }
 .countdownTimer .box {
@@ -20,6 +20,7 @@
   margin-top: 10px;
 }
 .label {
+  margin: 0;
   color: var(--highlight);
   text-transform: lowercase;
 }
