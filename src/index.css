@@ -4,6 +4,7 @@
   --main: #4b5e3c;
   --highlight: #977d5c;
   --light: #ece8e0;
+  --lighter: #eef0e9;
 }
 * {
   box-sizing: border-box;
