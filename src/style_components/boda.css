@@ -1,9 +1,11 @@
 .boda-container {
   width: 100%;
   margin: 0 auto;
-  border: 2px solid var(--main);
 }
 .boda-title {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
   display: flex;
   flex-direction: wrap;
   align-items: flex-start;
@@ -16,7 +18,6 @@
   padding: 2% 0;
 }
 h1 {
-  color: var(--main);
   font-size: 32px;
 }
 .boda-title-p {
@@ -39,4 +40,8 @@ h3 {
 /*Ceremonia & Recepción*/
 .when-where-container {
   padding: 2%;
+  background-image: url('/bouquet3-min-crop.png');
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 10px 5px;
 }

@@ -5,9 +5,6 @@ const Boda = () => {
   return (
     <div className="boda-container">
       <div className="boda-title">
-        {/* <div className="boda-title-bouquet-left">
-          <img className="boda-bouquet-left" src="./bouquet3-min-crop.png" alt="Flower bouquet" />
-        </div> */}
         <div className="boda-title-text">
           <h1>
             ¡Hola! Estamos muy felices y agradecidos de que nos acompañes a celebrar el día de
@@ -16,9 +13,6 @@ const Boda = () => {
           <p className="boda-title-p">¡Esperamos verte en enero para celebrar en grande!</p>
           <p className="signature">- Nadia & Stefan</p>
         </div>
-        {/* <div className="boda-title-bouquet-right">
-          <img className="boda-bouquet-right" src="./bouquet3-min-crop.png" alt="Flower bouquet" />
-        </div> */}
       </div>
 
       {/*Ceremonia/Recepción*/}
