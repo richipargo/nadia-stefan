@@ -80,7 +80,7 @@ const Boda = () => {
             <img className="dresscode-img" src="./MER_5764.jpg" alt="Nadia y Stefan en Oaxaca" />
           </div>
           <div className="dresscode-text">
-            <h2>Dresscode</h2>
+            <h2>Código de vestimenta</h2>
             <p className="main-info">Formal</p>
             <ul className="boda-ul">
               <li>Mujeres: vestido midi o largo (de día) </li>
