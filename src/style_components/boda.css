@@ -5,17 +5,8 @@
 .boda-title {
   width: 80%;
   margin: 0 auto;
-  padding-top: 10px;
-  display: flex;
-  flex-direction: wrap;
-  align-items: flex-start;
-  justify-content: center;
-}
-.boda-title-text {
-  font-weight: 400;
-  text-align: center;
-  width: 100%;
   padding: 2% 0;
+  text-align: center;
 }
 h1 {
   font-size: 32px;

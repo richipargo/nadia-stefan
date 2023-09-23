@@ -21,3 +21,6 @@ body {
   color: var(--dark-green);
   font-family: 'Cormorant Garamond', serif;
 }
+p {
+  font-size: 22px;
+}

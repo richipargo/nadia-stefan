@@ -5,14 +5,12 @@ const Boda = () => {
   return (
     <div className="boda-container">
       <div className="boda-title">
-        <div className="boda-title-text">
-          <h1>
-            ¡Hola! Estamos muy felices y agradecidos de que nos acompañes a celebrar el día de
-            nuestra boda. Aquí encontrarás todos los detalles el evento.
-          </h1>
-          <p className="boda-title-p">¡Esperamos verte en enero para celebrar en grande!</p>
-          <p className="signature">- Nadia & Stefan</p>
-        </div>
+        <h1>
+          ¡Hola! Estamos muy felices y agradecidos de que nos acompañes a celebrar el día de nuestra
+          boda. Aquí encontrarás todos los detalles el evento.
+        </h1>
+        <p className="boda-title-p">¡Esperamos verte en enero para celebrar en grande!</p>
+        <p className="signature">- Nadia & Stefan</p>
       </div>
 
       {/*Ceremonia/Recepción*/}
