@@ -2,13 +2,13 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
   color: var(--lighter);
-  border: 1.5px solid var(--main);
-  background-color: var(--main);
+  border: 1.5px solid var(--highlight);
+  background-color: var(--highlight);
   padding: 10px 30px;
   margin-top: 3%;
 }
 .details-btn:hover {
-  color: var(--main);
+  color: var(--highlight);
   cursor: pointer;
   background-color: transparent;
 }

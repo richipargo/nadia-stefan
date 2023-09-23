@@ -11,15 +11,15 @@
   margin: 0;
   padding: 0;
 }
-h1,
-h2,
-h3 {
-  color: var(--main);
-}
 body {
   background-color: var(--lighter);
   color: var(--dark-green);
   font-family: 'Cormorant Garamond', serif;
+}
+h1,
+h2,
+h3 {
+  color: var(--main);
 }
 p {
   font-size: 22px;

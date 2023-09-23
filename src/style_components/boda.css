@@ -2,37 +2,66 @@
   width: 100%;
   margin: 0 auto;
 }
+.boda-title-container {
+  width: 100%;
+  background-color: var(--highlight);
+}
 .boda-title {
   width: 80%;
   margin: 0 auto;
-  padding: 2% 0;
+  padding: 2%;
   text-align: center;
 }
-h1 {
-  font-size: 32px;
-}
-.boda-title-p {
-  font-size: 28px;
+.boda-title h1 {
+  color: var(--light);
   font-weight: 500;
 }
-.signature {
+.boda-title p {
+  color: var(--light);
   font-size: 28px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+.boda-title .signature {
   font-style: italic;
   font-weight: 200;
+  padding-top: 8px;
 }
+/*General title settings*/
 h2 {
-  font-size: 36px;
+  font-size: 32px;
   text-transform: uppercase;
 }
 h3 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 /*Ceremonia & Recepción*/
-.when-where-container {
-  padding: 2%;
-  background-image: url('/bouquet3-min-crop.png');
+.ceremonia-recepcion-container {
+  border: 2px solid yellow;
+  /* background-image: url('/bouquet3-min-crop.png');
   background-repeat: no-repeat;
   background-size: 120%;
-  background-position: 10px 5px;
+  background-position: 10px 5px; */
+}
+.ceremonia-recepcion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ceremonia-recepcion-text {
+  width: 50%;
+  padding: 3%;
+  border: 1px solid red;
+}
+.ceremonia-recepcion-img-container {
+  width: 50%;
+  display: block;
+}
+.ceremonia-recepcion-img {
+  width: 100%;
+}
+.entrance-img {
+  display: block;
+  width: 80%;
 }
