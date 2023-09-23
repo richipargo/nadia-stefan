@@ -1,6 +1,7 @@
 import '../style_components/home.css';
 import Hero from './Hero';
 import CountdownTimer from './CountdownTimer';
+import DetailsBtn from './DetailsBtn';
 import RsvpBtn from './RsvpBtn';
 
 const Home = () => {
@@ -10,10 +11,8 @@ const Home = () => {
       <p className="when-where">
         27 Enero, 2024. 13:30<span className="pm-span"> hrs</span> | Jardín Xolatlaco
       </p>
+      <DetailsBtn />
       <CountdownTimer />
-      <div>
-        <img className="home-bouquet" src="./public/bouquet2-min-ud.png" alt="flower bouquet"></img>
-      </div>
       {/* <RsvpBtn /> */}
     </div>
   );

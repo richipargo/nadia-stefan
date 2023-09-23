@@ -4,15 +4,20 @@
   --main: #4b5e3c;
   --highlight: #977d5c;
   --light: #ece8e0;
-  --lighter: #eef0e9;
+  --lighter: #f8f6f0;
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+h1,
+h2,
+h3 {
+  color: var(--main);
+}
 body {
-  background-color: var(--light);
+  background-color: var(--lighter);
   color: var(--dark-green);
   font-family: 'Cormorant Garamond', serif;
 }

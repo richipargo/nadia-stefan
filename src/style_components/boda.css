@@ -1,23 +1,13 @@
 .boda-container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  background-color: var(--lighter);
+  border: 2px solid var(--main);
 }
 .boda-title {
   display: flex;
   flex-direction: wrap;
   align-items: flex-start;
   justify-content: center;
-}
-.boda-bouquet-left {
-  width: 130px;
-  transform: rotate(180deg);
-  display: block;
-}
-.boda-bouquet-right {
-  width: 130px;
-  transform: rotate(300deg);
-  display: block;
 }
 .boda-title-text {
   font-weight: 400;
@@ -48,42 +38,5 @@ h3 {
 
 /*Ceremonia & Recepción*/
 .when-where-container {
-  background-color: var(--dark-green);
   padding: 2%;
-  color: var(--light);
 }
-
-/* .cuando-donde-container {
-  background-color: var(--dark-green);
-  color: var(--light);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.cuando-donde-text {
-  border: 1px solid green;
-  width: 40%;
-}
-.cuando-donde-map {
-  border: 2px solid pink;
-}
-.como-llegar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.como-llegar-text {
-  width: 40%;
-}
-.address-link {
-  text-decoration: underline;
-  color: var(--highlight);
-} */
-
-/*Three containers info */
-/* .cuando-donde-container,
-.event-container,
-.dresscode-container {
-  border: 1px solid blue;
-  padding: 1%;
-} */

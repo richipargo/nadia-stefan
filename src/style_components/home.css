@@ -1,11 +1,10 @@
 .home {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   padding: 0 0 2% 0;
   text-align: center;
   font-size: 26px;
   font-weight: 300;
-  background-color: var(--lighter);
 }
 .when-where {
   margin-top: 5%;
@@ -16,13 +15,6 @@
 .pm-span {
   text-transform: lowercase;
 }
-.home-bouquet {
-  width: 350px;
-  display: block;
-  margin: 10px auto;
-  transform: rotate(180deg);
-}
-
 @media all and (min-width: 320px) and (max-width: 600px) {
   .home {
     font-size: 18px;
