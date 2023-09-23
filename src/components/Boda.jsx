@@ -1,5 +1,5 @@
 import '../style_components/boda.css';
-import Map from './Map';
+// import Map from './Map';
 
 const Boda = () => {
   return (
