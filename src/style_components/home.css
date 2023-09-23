@@ -16,7 +16,7 @@
 .pm-span {
   text-transform: lowercase;
 }
-@media all and (min-width: 320px) and (max-width: 600px) {
+/* @media all and (min-width: 320px) and (max-width: 600px) {
   .home {
     font-size: 18px;
   }
@@ -25,4 +25,4 @@
   .home {
     font-size: 22px;
   }
-}
+} */

@@ -8,13 +8,6 @@
   width: 100%;
   display: block;
 }
-.hero-bouquet-left {
-  width: 250px;
-  position: absolute;
-  top: 10%;
-  left: 18%;
-  transform: rotate(120deg);
-}
 .centered-text {
   width: 100%;
   position: absolute;
@@ -25,15 +18,15 @@
 }
 .hero-h1 {
   font-weight: 300;
-  font-size: 60px;
+  font-size: 68px;
   color: var(--main);
 }
 .hero-h2 {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 26px;
   color: var(--dark-green);
 }
-@media all and (min-width: 320px) and (max-width: 500px) {
+/* @media all and (min-width: 320px) and (max-width: 500px) {
   .centered-text h1 {
     font-size: 26px;
   }
@@ -56,4 +49,4 @@
   .centered-text h2 {
     font-size: 18px;
   }
-}
+} */

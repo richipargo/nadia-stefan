@@ -1,5 +1,6 @@
 .countdown-text {
   color: var(--dark-green);
+  font-size: 26px;
 }
 
 .countdownTimer {
