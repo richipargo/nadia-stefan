@@ -13,18 +13,21 @@ import '../style_components/hotels.css';
 
 const Estadia = () => {
   return (
-    <>
+    <div className="hotels-container">
       {hotels.map((item, index) => (
-        <div key={index}>
+        <div className="hotel-container" key={index}>
           <h3>{item.name}</h3>
           <p>Distancia del evento: {item.distance}</p>
-          <img className="hotel-img" src={item.src}></img>
           <p>Dirección: {item.address}</p>
           <p>Tel: {item.tel}</p>
-          <a href={item.website}>{item.website}</a>
+          <div className="hotel-img-container">
+            <a href={item.website}>
+              <img className="hotel-img" src={item.src}></img>
+            </a>
+          </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 export default Estadia;

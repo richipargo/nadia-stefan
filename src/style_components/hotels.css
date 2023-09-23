@@ -1,3 +1,25 @@
-.hotel-img {
+.hotels-container {
+  width: 95%;
+  margin: 0 auto;
+  /* border: 2px solid var(--highlight); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.hotel-container {
   width: 30%;
+  padding: 2%;
+  background-color: var(--light);
+  margin: 10px;
+}
+/* .hotel-img-container {
+  background-color: aqua;
+} */
+.hotel-img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }
