@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Boda from './components/Boda';
-import Estadia from './components/Estadia';
+import Hospedaje from './components/Hospedaje';
 import Regalos from './components/Regalos';
 import Rsvp from './components/Rsvp';
 import Footer from './components/Footer';
@@ -24,8 +24,8 @@ function App() {
             <Route exact path="/boda">
               <Boda />
             </Route>
-            <Route exact path="/estadia">
-              <Estadia />
+            <Route exact path="/hospedaje">
+              <Hospedaje />
             </Route>
             <Route exact path="/regalos">
               <Regalos />

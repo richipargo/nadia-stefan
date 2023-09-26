@@ -11,7 +11,7 @@ import '../style_components/hotels.css';
 
 // export default Estadia;
 
-const Estadia = () => {
+const Hospedaje = () => {
   return (
     <div className="hotels-container">
       {hotels.map((item, index) => (
@@ -30,4 +30,4 @@ const Estadia = () => {
     </div>
   );
 };
-export default Estadia;
+export default Hospedaje;
