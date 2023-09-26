@@ -50,11 +50,16 @@ const Boda = () => {
                 <li>
                   Al llegar, Jardín Xolatlaco se encontrará a mano derecha; verás una puerta grande
                   de madera y un letrero que dice “XOLATLACO”.
+                  <img
+                    className="entrance-img"
+                    src="./public/xolatlaco1.png"
+                    alt="Puerta grande de madera en la entrada de Jardín Xolatlaco."
+                  />
                 </li>
                 <li>
-                  Habrá servicio de valet parking, pero te recomendamos llegar en taxi/Uber si vas a
+                  Habrá servicio de valet parking, pero te recomendamos llegar en taxi si vas a
                   tomar durante el fiestón. A la salida habrá servicio de camionetas hacia los
-                  hoteles en los siguientes horarios: X, X, y X.{' '}
+                  hoteles en los siguientes horarios: 12am, 2am, y X.{' '}
                 </li>
               </ul>
             </div>

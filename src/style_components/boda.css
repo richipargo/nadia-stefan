@@ -84,13 +84,15 @@ h3 {
   width: 50%;
 }
 .ceremonia-recepcion-img {
+  display: block;
   width: 100%;
-  display: block;
+  object-fit: cover;
 }
-/* .entrance-img {
+.entrance-img {
   display: block;
-  width: 80%;
-} */
+  width: 50%;
+  border: 4px double var(--highlight);
+}
 
 /*Cómo llegar*/
 .como-llegar {
