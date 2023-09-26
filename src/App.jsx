@@ -10,8 +10,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/rea
 import './index.css';
 
 function App() {
-  // const title = 'Welcome to our party';
-
   return (
     <Router>
       <div className="app">
