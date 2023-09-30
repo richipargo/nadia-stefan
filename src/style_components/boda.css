@@ -2,27 +2,27 @@
   width: 100%;
   margin: 0 auto;
 }
-.boda-title-container {
+.boda-header-container {
   width: 100%;
   background-color: var(--highlight);
 }
-.boda-title {
+.boda-header {
   width: 80%;
   margin: 0 auto;
   padding: 2%;
   text-align: center;
 }
-.boda-title h1 {
+.boda-header h1 {
   color: var(--light);
   font-weight: 500;
 }
-.boda-title p {
+.boda-header p {
   color: var(--light);
   font-size: 28px;
   font-weight: 400;
   padding-top: 8px;
 }
-.boda-title .signature {
+.boda-header .signature {
   font-style: italic;
   font-weight: 200;
   padding-top: 8px;
@@ -68,7 +68,7 @@ h3 {
 }
 .ceremonia-recepcion-text {
   width: 50%;
-  padding: 5%;
+  padding: 2% 5% 2% 5%;
 }
 .main-info {
   font-size: 32px;

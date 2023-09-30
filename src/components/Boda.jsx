@@ -4,8 +4,8 @@ import '../style_components/boda.css';
 const Boda = () => {
   return (
     <div className="boda-container">
-      <div className="boda-title-container">
-        <div className="boda-title">
+      <div className="boda-header-container">
+        <div className="boda-header">
           <h1>
             ¡Hola! Estamos muy felices y agradecidos de que nos acompañes a celebrar el día de
             nuestra boda. Aquí encontrarás todos los detalles del evento.
