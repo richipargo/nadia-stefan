@@ -1,7 +1,6 @@
-.hotels-container {
+.hoteles-container {
   width: 95%;
   margin: 0 auto;
-  /* border: 2px solid var(--highlight); */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,9 +13,21 @@
   background-color: var(--light);
   margin: 10px;
 }
-/* .hotel-img-container {
-  background-color: aqua;
-} */
+.hotel-h3 {
+  font-size: 32px;
+}
+.website-hotel {
+  text-decoration: underline;
+  color: var(--highlight);
+  font-size: 22px;
+}
+.website-hotel:hover {
+  cursor: pointer;
+  color: var(--main);
+}
+.hotel-img-container {
+  padding-top: 15px;
+}
 .hotel-img {
   display: block;
   width: 100%;

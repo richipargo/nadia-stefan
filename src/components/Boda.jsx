@@ -19,7 +19,7 @@ const Boda = () => {
       <div className="ceremonia-recepcion-container">
         <div className="ceremonia-recepcion">
           <div className="ceremonia-recepcion-text">
-            <h2>Ceremonia & Recepción</h2>
+            <h2 className="boda-h2">Ceremonia & Recepción</h2>
             <p className="main-info">Sábado 27 de enero, 2024 a las 13:30hrs</p>
             <p className="main-info">Jardín Xolatlaco</p>
             <p className="note">
@@ -31,7 +31,7 @@ const Boda = () => {
               <li>De ahí pasaremos al cóctel y recepción.</li>
             </ul>
             <div className="como-llegar">
-              <h3>Cómo llegar</h3>
+              <h3 className="boda-h3">Cómo llegar</h3>
               <a href="https://waze.com/ul/h9g3ecwhep" target="_blank" rel="noreferrer">
                 <button className="map-btn">Sigue Waze</button>
               </a>
@@ -80,7 +80,7 @@ const Boda = () => {
             <img className="dresscode-img" src="./MER_5845.jpg" alt="Nadia y Stefan en Oaxaca" />
           </div>
           <div className="dresscode-text">
-            <h2>Código de vestimenta</h2>
+            <h2 className="boda-h2">Código de vestimenta</h2>
             <p className="main-info">Formal</p>
             <ul className="boda-ul">
               <li>Mujeres: vestido midi o largo (de día) </li>

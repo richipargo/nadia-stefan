@@ -1,32 +1,19 @@
-import { hotels } from './Hotels';
-import '../style_components/hotels.css';
-
-// const Estadia = () => {
-//   return (
-//     <div className="estadia">
-//       <h2>Estadía aquí</h2>
-//     </div>
-//   );
-// };
-
-// export default Estadia;
+import Hoteles from './Hoteles';
+import '../style_components/hospedaje.css';
 
 const Hospedaje = () => {
   return (
-    <div className="hotels-container">
-      {hotels.map((item, index) => (
-        <div className="hotel-container" key={index}>
-          <h3>{item.name}</h3>
-          <p>Distancia del evento: {item.distance}</p>
-          <p>Dirección: {item.address}</p>
-          <p>Tel: {item.tel}</p>
-          <div className="hotel-img-container">
-            <a href={item.website}>
-              <img className="hotel-img" src={item.src}></img>
-            </a>
-          </div>
-        </div>
-      ))}
+    <div className="hospedaje-container">
+      <div className="hospedaje-header">
+        <h1 className="hospedaje-h1">Hospedaje</h1>
+        {/* <h2 className="hospedaje-h2">
+          Aquí te dejamos algunas recomendaciones de hoteles en Tepoztlán.
+        </h2> */}
+        <p className="hospedaje-header-p">
+          Aquí te dejamos algunas recomendaciones de hoteles en Tepoztlán.
+        </p>
+      </div>
+      <Hoteles />
     </div>
   );
 };
