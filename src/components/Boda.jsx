@@ -63,11 +63,6 @@ const Boda = () => {
                 </li>
               </ul>
             </div>
-            {/* <img
-              className="entrance-img"
-              src="./public/xolatlaco1.png"
-              alt="Puerta grande de madera en la entrada de Jardín Xolatlaco."
-            /> */}
           </div>
           <div className="ceremonia-recepcion-img-container">
             <img
@@ -82,7 +77,7 @@ const Boda = () => {
       <div className="dresscode-container">
         <div className="dresscode">
           <div className="dresscode-img-container">
-            <img className="dresscode-img" src="./MER_5764.jpg" alt="Nadia y Stefan en Oaxaca" />
+            <img className="dresscode-img" src="./MER_5845.jpg" alt="Nadia y Stefan en Oaxaca" />
           </div>
           <div className="dresscode-text">
             <h2>Código de vestimenta</h2>
