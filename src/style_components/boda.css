@@ -31,6 +31,7 @@
 .boda-h2 {
   font-size: 42px;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 .boda-h3 {
   font-size: 32px;
@@ -54,11 +55,14 @@
   font-size: 22px;
   padding: 5px 0;
 }
-/*Note*/
+/*Notes*/
 .note {
   font-style: italic;
   color: var(--highlight);
   padding-top: 1%;
+}
+.address {
+  font-style: italic;
 }
 /*Ceremonia & Recepción*/
 .ceremonia-recepcion {
@@ -68,7 +72,8 @@
 }
 .ceremonia-recepcion-text {
   width: 50%;
-  padding: 2% 5% 2% 5%;
+  padding: 5%;
+  background-color: var(--light);
 }
 .main-info {
   font-size: 32px;
@@ -87,8 +92,8 @@
 }
 
 /*Cómo llegar*/
-.como-llegar {
-  margin-top: 5%;
+.bullets {
+  margin-top: 2%;
 }
 
 /*Map buttons*/
@@ -104,7 +109,8 @@
 }
 .map-btn:hover {
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--highlight);
+  color: var(--light);
 }
 
 /*Dresscode*/

@@ -22,30 +22,31 @@ const Boda = () => {
             <h2 className="boda-h2">Ceremonia & Recepción</h2>
             <p className="main-info">Sábado 27 de enero, 2024 a las 13:30hrs</p>
             <p className="main-info">Jardín Xolatlaco</p>
-            <p className="note">
+            <p className="address">
               Carretera Tepoztlán - Amatlán no. 1000 - B Amatlán de Quetzalcóatl, Tepoztlán Morelos
               CP 62525
             </p>
-            <ul className="boda-ul">
-              <li>Te esperamos a las 13:30hrs para la ceremonia.</li>
-              <li>De ahí pasaremos al cóctel y recepción.</li>
-            </ul>
-            <div className="como-llegar">
-              <h3 className="boda-h3">Cómo llegar</h3>
-              <a href="https://waze.com/ul/h9g3ecwhep" target="_blank" rel="noreferrer">
-                <button className="map-btn">Sigue Waze</button>
-              </a>
-              <a href="https://maps.app.goo.gl/ENe7YmdFubLPBpYC8" target="_blank" rel="noreferrer">
-                <button className="map-btn">Sigue Google Maps</button>
-              </a>
-              <p className="note">
-                El destino debe ser “Jardín Xolatlaco” (NO solamente “Xolatlaco”, ya que te puede
-                llevar a otro lugar).
-              </p>
+            <a href="https://waze.com/ul/h9g3ecwhep" target="_blank" rel="noreferrer">
+              <button className="map-btn">Sigue Waze</button>
+            </a>
+            <a href="https://maps.app.goo.gl/ENe7YmdFubLPBpYC8" target="_blank" rel="noreferrer">
+              <button className="map-btn">Sigue Google Maps</button>
+            </a>
+            <p className="note">
+              El destino debe ser “Jardín Xolatlaco” (NO solamente “Xolatlaco”, ya que te puede
+              llevar a otro lugar).
+            </p>
+            <div className="bullets">
               <ul className="boda-ul">
+                <li>Te esperamos a las 13:30hrs para la ceremonia.</li>
                 <li>
                   Por favor toma en cuenta que los sábados suele haber mucho tráfico en el centro de
                   Tepoztlán, te pedimos considerarlo dentro de tus planes.
+                </li>
+                <li>
+                  Habrá servicio de valet parking, pero te recomendamos llegar en taxi si vas a
+                  tomar durante el fiestón. A la salida habrá servicio de camionetas hacia los
+                  hoteles en los siguientes horarios: 12am, 2am, y X.{' '}
                 </li>
                 <li>
                   Al llegar, Jardín Xolatlaco se encontrará a mano derecha; verás una puerta grande
@@ -55,11 +56,6 @@ const Boda = () => {
                     src="./public/xolatlaco1.png"
                     alt="Puerta grande de madera en la entrada de Jardín Xolatlaco."
                   />
-                </li>
-                <li>
-                  Habrá servicio de valet parking, pero te recomendamos llegar en taxi si vas a
-                  tomar durante el fiestón. A la salida habrá servicio de camionetas hacia los
-                  hoteles en los siguientes horarios: 12am, 2am, y X.{' '}
                 </li>
               </ul>
             </div>
