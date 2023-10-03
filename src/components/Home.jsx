@@ -2,7 +2,6 @@ import '../style_components/home.css';
 import Hero from './Hero';
 import CountdownTimer from './CountdownTimer';
 import DetailsBtn from './DetailsBtn';
-import RsvpBtn from './RsvpBtn';
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
       </p>
       <DetailsBtn />
       <CountdownTimer />
-      {/* <RsvpBtn /> */}
     </div>
   );
 };
