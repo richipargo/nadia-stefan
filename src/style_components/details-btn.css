@@ -1,14 +1,14 @@
 .details-btn {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
-  color: var(--lighter);
+  color: var(--highlight);
   border: 1.5px solid var(--highlight);
-  background-color: var(--highlight);
+  background-color: transparent;
   padding: 10px 30px;
   margin-top: 3%;
 }
 .details-btn:hover {
-  color: var(--highlight);
+  color: var(--lighter);
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--highlight);
 }
