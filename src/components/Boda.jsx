@@ -20,7 +20,7 @@ const Boda = () => {
         <div className="ceremonia-recepcion">
           <div className="ceremonia-recepcion-text">
             <h2 className="boda-h2">Ceremonia & Recepción</h2>
-            <p className="main-info">Sábado 27 de enero, 2024 a las 13:30hrs</p>
+            <p className="main-info">Sábado 27 de enero, 2024 a la 1:30pm</p>
             <p className="main-info">Jardín Xolatlaco</p>
             <p className="address">
               Carretera Tepoztlán - Amatlán no. 1000 - B Amatlán de Quetzalcóatl, Tepoztlán Morelos
