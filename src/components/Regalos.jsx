@@ -1,7 +1,27 @@
+import '../style_components/regalos.css';
+
 const Regalos = () => {
   return (
     <div className="regalos">
-      <h2>Mesa de regalos aquí</h2>
+      <div className="regalos-container">
+        <div className="regalos-text">
+          <h2 className="regalos-h2">Mesa de regalos</h2>
+          <p className="regalos-info">
+            El mejor regalo que puedes darnos es tu presencia, pero si además quieres regalarnos
+            algo para la nueva etapa que empezaremos juntos, te los agradecemos muchísimo.
+          </p>
+          <a
+            href="https://evento.uniko.co/nadiaystefan/gift-table"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="regalos-btn">Ir a mesa de regalos UNIKO</button>
+          </a>
+        </div>
+        <div className="regalos-img-container">
+          <img className="regalos-img" src="./MER_5732.jpg" alt="Nadia y Stefan en Oaxaca" />
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,46 @@
+.regalos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.regalos-text {
+  width: 50%;
+  padding: 5%;
+  background-color: var(--light);
+}
+
+.regalos-h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.regalos-info {
+  font-size: 32px;
+}
+
+.regalos-img-container {
+  width: 50%;
+}
+
+.regalos-img {
+  width: 100%;
+  display: block;
+}
+
+.regalos-btn {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  color: var(--highlight);
+  border: 1.5px solid var(--highlight);
+  background-color: var(--light);
+  padding: 10px 30px;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+.regalos-btn:hover {
+  cursor: pointer;
+  background-color: var(--highlight);
+  color: var(--light);
+}
