@@ -38,7 +38,7 @@ const Boda = () => {
             </p>
             <div className="bullets">
               <ul className="boda-ul">
-                <li>Te esperamos a las 13:30hrs para la ceremonia.</li>
+                <li>Te esperamos a la 1:30pm para la ceremonia.</li>
                 <li>
                   Por favor toma en cuenta que los sábados suele haber mucho tráfico en el centro de
                   Tepoztlán, te pedimos considerarlo dentro de tus planes.
