@@ -8,7 +8,6 @@ const Hoteles = () => {
         <div className="hotel-container" key={index}>
           <h3 className="hotel-h3">{item.name}</h3>
           <p>A {item.distance} del evento en coche.</p>
-          {/* <p>{item.address}</p> */}
           <p>Tel: {item.tel}</p>
           <a href={item.website} target="_blank" rel="noreferrer" className="website-hotel">
             Página web
