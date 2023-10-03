@@ -6,9 +6,6 @@ const Hospedaje = () => {
     <div className="hospedaje-container">
       <div className="hospedaje-header">
         <h1 className="hospedaje-h1">Hospedaje</h1>
-        {/* <h2 className="hospedaje-h2">
-          Aquí te dejamos algunas recomendaciones de hoteles en Tepoztlán.
-        </h2> */}
         <p className="hospedaje-header-p">
           Aquí te dejamos algunas recomendaciones de hoteles en Tepoztlán.
         </p>
