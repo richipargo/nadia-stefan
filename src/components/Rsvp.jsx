@@ -10,7 +10,7 @@ const Rsvp = () => {
           Por favor recuerda confirmar tu asistencia a través de WhatsApp.
         </p>
       </div>
-      <img className="rsvp-img" src="./ns-241.jpg" alt="Nadia y Stefan en Oaxaca"></img>
+      <img className="rsvp-img" src="./ns-243.jpg" alt="Nadia y Stefan en Oaxaca"></img>
     </div>
   );
 };
