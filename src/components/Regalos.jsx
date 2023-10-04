@@ -19,7 +19,7 @@ const Regalos = () => {
           </a>
         </div>
         <div className="regalos-img-container">
-          <img className="regalos-img" src="./MER_5732.jpg" alt="Nadia y Stefan en Oaxaca" />
+          <img className="regalos-img" src="./NS-136.jpg" alt="Nadia y Stefan en Oaxaca" />
         </div>
       </div>
     </div>
