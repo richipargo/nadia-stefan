@@ -13,3 +13,21 @@
 .hospedaje-header-p {
   padding-top: 10px;
 }
+.hospedaje-codigo {
+  font-style: italic;
+  color: var(--highlight);
+}
+
+/*Responsive mobile - Hospedaje*/
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .hospedaje-h1 {
+    font-size: 22px;
+  }
+  .hospedaje-header-p {
+    padding-top: 0px;
+    font-size: 14px;
+  }
+  .hospedaje-codigo {
+    font-size: 14px;
+  }
+}

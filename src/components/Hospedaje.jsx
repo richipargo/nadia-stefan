@@ -9,7 +9,9 @@ const Hospedaje = () => {
         <p className="hospedaje-header-p">
           Aquí te dejamos algunas recomendaciones de hoteles en Tepoztlán.
         </p>
-        <p>Para el hotel Amomoxtli, puedes usar el código de descuento WNS24.</p>
+        <p className="hospedaje-codigo">
+          Para el hotel Amomoxtli, puedes usar el código de descuento <strong>WNS24</strong>.
+        </p>
       </div>
       <Hoteles />
     </div>
