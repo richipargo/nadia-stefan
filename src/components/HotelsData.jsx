@@ -46,7 +46,7 @@ export const hotelsData = [
   },
   {
     id: 4,
-    name: 'Posada Tepozteco',
+    name: 'Posada del Tepozteco',
     address: 'Paraiso 3, Barrio de San Miguel, 62520',
     website: 'https://posadadeltepozteco.com.mx/',
     tel: '739-395-0010',
@@ -58,7 +58,7 @@ export const hotelsData = [
     id: 5,
     name: 'La Buena Vibra',
     address: 'San Lorenzo 7, Valle Atongo 62520',
-    website: 'https://www.hotelbuenavibra.com.mx/',
+    website: 'https://www.hotelbuenavibra.com',
     tel: '739-395-1491',
     distance: '13 min',
     src: hotel5,
