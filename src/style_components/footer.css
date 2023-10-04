@@ -18,10 +18,6 @@
   font-size: 50px;
   font-weight: 300;
 }
-/* .link-initials {
-  text-decoration: none;
-  color: var(--main);
-} */
 .date {
   color: var(--main);
   padding: 10px 0;
@@ -34,4 +30,23 @@ footer {
 }
 footer p {
   font-size: 16px;
+}
+
+/*Responsive mobile footer*/
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .initials {
+    width: 70px;
+    padding: 5px 0;
+  }
+  .date {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  footer {
+    margin: 35px 0 0 0;
+    /* padding-bottom: 12px; */
+  }
+  footer p {
+    font-size: 10px;
+  }
 }
