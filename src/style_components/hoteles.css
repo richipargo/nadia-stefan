@@ -1,5 +1,5 @@
 .hoteles-container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -38,13 +38,12 @@
 /*Responsive mobile - Hoteles*/
 @media all and (min-width: 320px) and (max-width: 480px) {
   .hoteles-container {
-    /* width: 80%; */
     flex-direction: column;
   }
   .hotel-container {
-    width: 95%;
+    width: 100%;
     padding: 3%;
-    margin: 5px;
+    margin: 5px 0px;
   }
   .hotel-h3 {
     font-size: 18px;
