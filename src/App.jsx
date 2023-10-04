@@ -12,7 +12,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="nadia-stefan">
       <ScrollToTop />
       <div className="app">
         <Navbar />
