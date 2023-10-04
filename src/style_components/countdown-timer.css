@@ -31,16 +31,16 @@
 /*Responsive mobile*/
 @media all and (min-width: 320px) and (max-width: 480px) {
   .countdown-text {
-    font-size: 16px;
+    font-size: 14px;
   }
   .label {
-    font-size: 16px;
+    font-size: 14px;
   }
   .value {
-    font-size: 16px;
+    font-size: 14px;
   }
   .countdownTimer {
-    padding: 6% 0 0 0;
+    padding: 3% 0 0 0;
   }
   .countdownTimer .content {
     gap: 1px;

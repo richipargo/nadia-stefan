@@ -10,8 +10,8 @@ const Home = () => {
       <p className="when-where">
         27 Enero, 2024. 1:30<span className="pm-span"> pm</span> | Jardín Xolatlaco
       </p>
-      <DetailsBtn />
       <CountdownTimer />
+      <DetailsBtn />
     </div>
   );
 };
