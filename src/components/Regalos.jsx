@@ -8,7 +8,7 @@ const Regalos = () => {
           <h2 className="regalos-h2">Mesa de regalos</h2>
           <p className="regalos-info">
             El mejor regalo que puedes darnos es tu presencia, pero si además quieres regalarnos
-            algo para la nueva etapa que empezaremos juntos, te los agradecemos mucho.
+            algo para la nueva etapa que empezaremos juntos, te lo agradecemos mucho.
           </p>
           <a
             href="https://evento.uniko.co/nadiaystefan/gift-table"
