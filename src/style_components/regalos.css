@@ -3,32 +3,25 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .regalos-text {
   width: 50%;
   padding: 5%;
   background-color: var(--light);
 }
-
 .regalos-h2 {
   font-size: 42px;
   text-transform: uppercase;
   padding-bottom: 5px;
 }
-
-/* .regalos-info {
-  font-size: 32px;
-} */
-
 .regalos-img-container {
   width: 50%;
 }
-
 .regalos-img {
   width: 100%;
   display: block;
 }
 
+/*Regalos -btn*/
 .regalos-btn {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
@@ -43,4 +36,29 @@
   cursor: pointer;
   background-color: var(--highlight);
   color: var(--light);
+}
+
+/*Responsive mobile - Regalos*/
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .regalos-container {
+    flex-direction: column;
+  }
+  .regalos-text {
+    width: 100%;
+  }
+  .regalos-h2 {
+    font-size: 22px;
+  }
+  .regalos-info {
+    font-size: 14px;
+  }
+  .regalos-img-container {
+    width: 100%;
+  }
+  /*Regalos -btn*/
+  .regalos-btn {
+    font-size: 12px;
+    border: 1px solid var(--highlight);
+    padding: 5px 10px;
+  }
 }
