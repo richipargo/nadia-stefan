@@ -16,12 +16,12 @@
 .hotel-h3 {
   font-size: 32px;
 }
-.website-hotel {
+.hotel-website {
   text-decoration: underline;
   color: var(--highlight);
   font-size: 22px;
 }
-.website-hotel:hover {
+.hotel-website:hover {
   cursor: pointer;
   color: var(--main);
 }
@@ -33,4 +33,30 @@
   width: 100%;
   height: 250px;
   object-fit: cover;
+}
+
+/*Responsive mobile - Hoteles*/
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .hoteles-container {
+    /* width: 80%; */
+    flex-direction: column;
+  }
+  .hotel-container {
+    width: 95%;
+    padding: 5%;
+    margin: 5px;
+  }
+  .hotel-h3 {
+    font-size: 22px;
+  }
+  .hotel-website {
+    font-size: 14px;
+  }
+  .hotel-tel,
+  .hotel-distance {
+    font-size: 14px;
+  }
+  .hotel-img {
+    height: 150px;
+  }
 }
