@@ -36,3 +36,17 @@
 .nav-list a:hover {
   font-weight: 800;
 }
+
+/*Responsive mobile navbar*/
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    width: 40px;
+  }
+  .nav-list {
+    padding: 5px;
+  }
+  .nav-list li {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
